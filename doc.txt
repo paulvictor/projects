@@ -1,0 +1,5 @@
+Switch to in i3 window for a project if it already exists or open a new one if none is present
+
+typical workflow:
+get the list of projects and pipe it to rofi, allowing the user to select one of them. once selected, check i3 windows if any matches the said pattern, it so focus the container else open a new termite window with the right title
+

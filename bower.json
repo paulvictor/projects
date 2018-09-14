@@ -1,0 +1,25 @@
+{
+  "name": "tools",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-console": "^4.1.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-aff": "^5.0.2",
+    "purescript-node-process": "^6.0.0",
+    "purescript-lists": "^5.3.0",
+    "purescript-node-path": "^3.0.0",
+    "purescript-profunctor": "^4.0.0",
+    "purescript-argonaut-codecs": "^4.0.2",
+    "purescript-node-fs": "^5.0.0",
+    "purescript-yarn": "^4.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}
