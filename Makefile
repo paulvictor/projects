@@ -8,3 +8,6 @@ out.js: src/*.purs
 
 clean:
 	rm -Rf output/ .pulp-cache/ .purs-repl out.js project
+
+install: project
+	cp -Rv project ${HOME}/bin/
